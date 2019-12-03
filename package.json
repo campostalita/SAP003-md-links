@@ -1,0 +1,32 @@
+{
+  "name": "md-Links",
+  "version": "1.0.0",
+  "description": "## Índice",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campostalita/SAP003-md-links.git"
+  },
+  "author": "Talita Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/campostalita/SAP003-md-links/issues"
+  },
+  "homepage": "https://github.com/campostalita/SAP003-md-links#readme",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0"
+  },
+  "bin": {
+    "md-Links": "./lib/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
+}
